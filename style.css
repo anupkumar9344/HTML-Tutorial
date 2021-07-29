@@ -1,18 +1,56 @@
-div{
-    background-color:rgb(130, 255, 238);
-    padding-top: 12px;
-    padding-bottom: 12px;
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+/*Login form*/
+.Login_form{
+    background-color:bisque;
+    padding: 30px;
+    border-radius: 10px;
+    
+}
+.Login_form h1{
+    color:rgb(93, 103, 243);
+    font-weight: 600;
+}
+.Login_form button{
+    color: white;
+}
+.Login-form .row, .Registration-form .row{
+    background-color:blue;
+    padding: 20px;
+}
+/*nav bar*/
+.nav{
+    background-color:aquamarine;
+    height: 70px;
+    padding: 15px;
+}
+.nav .navbar-brand a{
+    text-decoration: none;
+    color:black;
+    border:none;
+}
+.nav a{
+    
+    font-size: 18px;
+    font-weight: 600;
+    color:black; 
+    border: 1px solid red;
+    border-radius: 3px;
+    margin-left: 10px;
+}
+.nav a:hover{
+    background-color:black;
+    color:white;
 
-    width: 100%;
-    height: 55px;
 }
 
-div ul li{
-    display: inline-block;
-    padding-right: 30px;
-    color:rgb(38, 24, 239);
-    font-size: 20px;
-    font-weight: 600;
-    font-style: oblique;
-    float: right;
+.card{
+    margin-top: 100px;
+}
+
+.card i{
+    font-size: 100px;
+    text-align: center;
+    margin-top: 40px;
 }
